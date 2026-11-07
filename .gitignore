@@ -1,0 +1,27 @@
+target/
+.env
+!.env.example
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.cursor/
+.classpath
+.project
+.settings/
+
+# Vaadin / Node
+node_modules/
+node/
+src/main/frontend/generated/
+src/main/bundles/
+vite.generated.ts
+vite.config.ts
+package.json
+package-lock.json
+tsconfig.json
+types.d.ts
+.vaadin/
+frontend/generated/
+*.log
